@@ -1,7 +1,6 @@
 # Word Blast - The Keyboard Warrior's Challenge
 
 
-![Game Banner](https://via.placeholder.com/800x200?text=Typing+Defense+-+PatchFest+2025)
 
 ## The Vision
 **Word Blast** is a fast-paced browser game where your keyboard is your weapon. Words fall from the sky like missiles, and you must type them out to destroy them before they breach your defenses.
