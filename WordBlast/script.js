@@ -42,11 +42,13 @@ class Enemy {
         this.text = text;
         this.speed = 1 + Math.random();
         this.color = '#0f0';
+        this.org = text.length;
     }
 
     draw() {
         ctx.font = '20px Courier New';
-        ctx.fillStyle = this.color;
+        // locks on text and will chnge to red if typing starts
+        ctx.fillStyle = (this.text.length < this.org) ? "#ff0000" : this.color;
         ctx.fillText(this.text, this.x, this.y);
     }
 
